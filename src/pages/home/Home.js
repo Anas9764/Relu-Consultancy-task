@@ -1,9 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Navbar from "../../components/navbar/Navbar";
+import Main from "../../components/maincontent/Main";
+
 
 function Home(props) {
   return (
     <div>
+    <Navbar/>
+    <Main/>
       <div>
         <h1>
           <Link to="/login">Login</Link>
