@@ -6,13 +6,17 @@ import styles from './Main.module.css'
 
 const Main = () => {
   return (
-    <div>Main
+    // <div>Main
     <div className={styles.Main}>
-<Sidebar/>
-<Post/>
-<Artists/>
+  <div className={styles.box1}><Sidebar/></div>
+  <div className={styles.box2}><Post/></div>
+  <div className={styles.box3}><Artists/></div>
+
+
+
+
     </div>
-    </div>
+    // </div>
   )
 }
 

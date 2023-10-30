@@ -9,7 +9,7 @@ function Home(props) {
     <div>
     <Navbar/>
     <Main/>
-      <div>
+      {/* <div>
         <h1>
           <Link to="/login">Login</Link>
         </h1>
@@ -23,7 +23,7 @@ function Home(props) {
       <br />
       <br />
 
-      <h2>{props.name ? `Welcome - ${props.name}` : "Login please"}</h2>
+      <h2>{props.name ? `Welcome - ${props.name}` : "Login please"}</h2> */}
     </div>
   );
 }

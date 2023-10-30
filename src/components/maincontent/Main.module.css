@@ -1,6 +1,23 @@
 .Main{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 27px;
+    background-color: #c2bdbd6c;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.box1{
+    width: 19rem;
+
+}
+.box2{
+    margin-top: 20px;
+    width: 58rem;
+}
+.box3{
+ 
+    width: 19rem;
 }

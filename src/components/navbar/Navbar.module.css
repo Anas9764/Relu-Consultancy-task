@@ -1,6 +1,5 @@
 .navbar {
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   padding: 8px;
   background-color: #c2bdbd6c;
@@ -9,7 +8,7 @@
 
 .logo {
   width: 18rem;
-  /* border: 2px solid black; */
+
   border: none;
   height: 5rem;
   display: flex;
@@ -18,7 +17,7 @@
   background-color: white;
   border-radius: 10px;
 
-  .logoItem {
+  .logoItem h1{
     text-align: center;
     font-family: Georgia, "Times New Roman", Times, serif;
     margin-left: 20px;
@@ -27,7 +26,6 @@
 }
 
 .searchbar{
-  /* border: 2px solid black; */
   border: none;
   width: 55rem;
   height: 5rem;
@@ -44,7 +42,6 @@
   }
   .searchbaritem{
 display: flex;
-/* justify-content: space-between; */
   }
   .searchbaritems{
     display: flex;

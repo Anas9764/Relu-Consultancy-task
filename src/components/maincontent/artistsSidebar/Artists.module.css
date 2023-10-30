@@ -1,0 +1,74 @@
+.Artists{
+ 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.Artists_titles{
+    display: flex;
+    gap: 10px;
+}
+
+
+.Artists_sidepost{
+
+  width: 100%;
+  height: 9rem;
+}
+
+.Artists_sidepost_bag img{
+   width: 100%;
+   height: 9rem;
+  object-fit: cover;
+  position: relative;
+  /* z-index: -1; */
+  border-radius: 10px;
+}
+
+.content{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    top: -75px;
+    left: 10px;
+    display: flex;
+    gap: 10px;
+
+}
+.title{
+    position: relative;
+    top: -25px;
+}
+h1 {
+    font-size: 19px;
+    margin-bottom: 20px;
+  }
+
+img.avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 26%;
+    border: 2px solid rgb(255, 255, 255);
+    object-fit: cover;
+    /* border: 0px solid #fff; */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.Avtar_title{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+  }
+  .title{
+    display: inline;
+    .username{
+      position: relative;
+      top: 12px;
+    }
+    .tagname{
+      position: relative;
+      top: -10px;
+    }
+  }

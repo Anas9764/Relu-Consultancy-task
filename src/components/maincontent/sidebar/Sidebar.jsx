@@ -5,9 +5,7 @@ import {MdOutlineHome,MdNotificationsNone,MdMonitorHeart ,MdWallet,MdConnectWith
 function Sidebar() {
   return (
     <div className={styles.sidebar}>
-      {/* <div className={styles.sidebarheader}>
-        <h2>My Sidebar</h2>
-      </div> */}
+   
       <ul className={styles.sidebarmenu}>
         <li><MdOutlineHome/>Home</li>
         <li><MdNotificationsNone/>Notification</li>
@@ -19,7 +17,7 @@ function Sidebar() {
         <li><MdSettings/>Settings</li>
       </ul>
   <div className={styles.sidebarlogoutbtn}>
-        <button><MdOutlineLogout/>My Sidebar</button>
+        <button><MdOutlineLogout/>Log Out</button>
       </div>
 
     </div>
